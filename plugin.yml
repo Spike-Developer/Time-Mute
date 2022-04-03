@@ -3,3 +3,12 @@ version: 1.0
 main: TimeMute\Loader
 api: [4.0.0]
 author: "Spike-Dev"
+
+commands:
+  timemute:
+    name: "timemute"
+    description: "TimeMute Command"
+
+permissions:
+  timemute.command:
+    default: op
