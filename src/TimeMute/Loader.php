@@ -23,6 +23,7 @@ class Loader extends PluginBase implements Listener
      */
     protected function onEnable(): void
     {
+        mkdir($this->getDataFolder());
         $this->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
         $this->config = new Config($this->getDataFolder() . "mutes.yml", Config::JSON);
         $this->config->save();
