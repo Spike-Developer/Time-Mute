@@ -1,0 +1,5 @@
+name: "Time-Mute"
+version: 1.0
+main: TimeMute\Loader
+api: [4.0.0]
+author: "Spike-Dev"
